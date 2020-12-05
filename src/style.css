@@ -1,0 +1,14 @@
+body{
+    margin: 0 ;
+}
+.Context {
+
+width: 100%;
+
+display: inline-block;
+    margin: 0 auto;
+}
+.contextBody{
+    width: 80%;
+    margin: 2% auto;
+}

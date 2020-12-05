@@ -1,0 +1,46 @@
+.main{
+    padding: 0;
+    font-size: 3vw;
+    width: 100%;
+    background-color: #d8dfe7;
+    height: 80px;
+}
+.Country{
+
+    margin: 15px;
+    float: right;
+}
+
+.number{
+
+    margin: 1vw 0 0 11.5vw;
+    float: left;
+}
+.main>div{
+    display: inline-block;
+}
+
+
+.previous{
+
+    float: left;
+}
+a {
+
+    font-size: 30px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 15px;
+    margin: 3px;
+    margin-top: 15px;
+    border-radius:1px ;
+    padding-left: 8px;
+
+}
+.previous {
+    width: 1px;
+    background-color: #f1f1f1;
+    color: black;
+}
+
+
