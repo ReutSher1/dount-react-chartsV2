@@ -5,24 +5,17 @@ const data=[ {
 
     datasets: [{
                 county:"ספרד",
-                data: [22,2710],
-                backgroundColor: ['#344f69', '#dadcdb',],
+                data: [3000,2710],
+                backgroundColor: ['#344f69', '#dadcdb'],
         }],
             labels: [` כשירות `, ` בטיפול `],
     }]
- const z=()=>{
-    return(
-        <div>
-            <App  data={data}/>
 
-        </div>
-    )
- }
 
 
 
 ReactDOM.render(
-    z(),
+    <App  data={data}/>,
   document.getElementById('root')
 );
 

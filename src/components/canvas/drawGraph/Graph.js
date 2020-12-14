@@ -1,4 +1,4 @@
-import React, { Component} from 'react';
+import React from 'react';
 import {elipce} from '../optionsCanvas/elipceCenter'
 import { Doughnut } from 'react-chartjs-2'
 import {line} from "../optionsCanvas/greenLineOnGraph"
@@ -7,15 +7,10 @@ import Chart from 'chart.js';
 import {drawTriangle} from '../optionsCanvas/triangleCanvas'
 import './Graph.css'
 
-export default class Graph extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            data: this.props.data.data        //data from index.js
-        }
-    }
+export default function  Graph (props) {
 
-    render() {
+
+
 
         let originalDoughnutDraw = Chart.controllers.doughnut.prototype.draw;
         Chart.helpers.extend(Chart.controllers.doughnut.prototype, {
@@ -62,12 +57,12 @@ export default class Graph extends Component {
             <div  className='canvas'>
 
                 <Doughnut
-                    data={this.state.data}
+                    data={props.data}
                     width={90}
                     height={50}
                     options={optionsData}
                 />
             </div>
         )
-    }
+
 }
