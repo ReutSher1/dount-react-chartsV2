@@ -13,6 +13,7 @@ export default function App(props){
             <div  className='contextBody'>
                 <Legend  data={count} />
                 <Graph  data={count}/>
+                <div></div>
             </div>
 
 
