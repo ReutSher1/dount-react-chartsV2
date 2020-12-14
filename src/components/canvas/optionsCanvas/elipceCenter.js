@@ -1,5 +1,5 @@
-export const elipce=(ctx, x, y, width, height, radius, fill, stroke)=> {
-    if (typeof stroke == "undefined" ) {
+export const elipce = (ctx, x, y, width, height, radius, fill, stroke) => {
+    if (typeof stroke == "undefined") {
         stroke = true;
     }
     if (typeof radius === "undefined") {

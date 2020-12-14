@@ -1,11 +1,11 @@
 
 
-export  const optionsData={
+export const optionsData = {
     elements: {
-        arc: {borderWidth: 0}
-        },
+        arc: { borderWidth: 0 }
+    },
 
-    cutoutPercentage:80,                                                    //Size hole diagram
+    cutoutPercentage: 80,                                                    //Size hole diagram
     legend: {
         display: false
     },
