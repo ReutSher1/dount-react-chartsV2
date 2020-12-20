@@ -41,8 +41,6 @@ export default function Graph(props) {
                 ctx.fillStyle = "#d4644e";
                 ctx.strokeStyle = '#d4644e';
             }
-
-
             elipce(ctx, height / 1.36, height / 1.5, height / 3.4, height / 19, height / 32, true);
             ctx.fillStyle = "white";
             ctx.fillText("כשרות", height / 1.23, height / 1.45)
@@ -52,10 +50,8 @@ export default function Graph(props) {
         }
 
     });
-
     return (
         <div className='canvas'>
-
             <Doughnut
                 data={props.data}
                 width={90}

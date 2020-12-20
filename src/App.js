@@ -6,7 +6,7 @@ import { TopMenu } from './components/TopMenu/TopMenu'
 
 export default function App(props) {
 
-    const [count, setCount] = useState(props.data[0]);
+    const [count, setCount] = useState(props.data);
     return (
         <div className="Context">
             <TopMenu data={count} />
